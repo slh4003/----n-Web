@@ -1,0 +1,34 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Tương thích trải nghiệm trên các thiết bị có kích thước màn hình khác nhau */
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full__width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*  */
+
